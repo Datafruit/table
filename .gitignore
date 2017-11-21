@@ -8,4 +8,4 @@ dist
 !.babelrc
 !.travis.yml
 !.eslintrc
-package-lock.json
+/package-lock.json
