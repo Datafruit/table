@@ -39,7 +39,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "./dist/index.js",
-  "name": "sugo-table",
+  "name": "table",
   "nyc": {
     "include": [
       "src/*.js"
