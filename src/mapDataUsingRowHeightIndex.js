@@ -30,7 +30,9 @@ export default (unmappedRows, rowHeightIndex, config) => {
       }
 
       _.forEach(chunkedValue, (part, index2) => {
-        rowHeight[index2][index1] = part;
+        if (rowHeight[index2] !== undefined) {
+          rowHeight[index2][index1] = part;
+        }
       });
     });
 
